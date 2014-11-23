@@ -1,4 +1,4 @@
-//// to compile this example fron linux use this command "gcc example1.c -o example1 -lpthread" //// 
+//// to compile this example from linux using GCC use this command "gcc example1.c -o example1 -lpthread" //// 
 ////////////////////////
 #include <stdlib.h>
 #include <stdio.h>
