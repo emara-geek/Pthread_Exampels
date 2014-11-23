@@ -16,7 +16,7 @@ void *thread_1()
     pthread_mutex_lock(&lock);
     while (1) {
         pthread_cond_wait(&cond, &lock);
-        printf("thread one");
+        printf("thread 1");
         pthread_cond_signal(&cond1);
     }
     pthread_mutex_unlock(&lock);
